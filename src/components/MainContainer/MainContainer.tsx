@@ -20,6 +20,11 @@ import { dungeonMap, DungeonMapItem, DungeonData, dungeonData } from "./DungeonD
 //   ["0-3", "1-3", "2-3", "3-3"],
 // ];
 
+/**
+ * TODO:
+ * - create events and objects in rooms.
+ */
+
 interface CurrentRoom {
   moveOptions: DungeonMapItem;
 }
